@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
 }
+body {
+}
 /*header*/
 header{
     position: fixed;
@@ -36,7 +38,7 @@ header{
 }
 .navitem a:hover{
     text-decoration: none;
-    color: violet;
+    color: rgb(6, 40, 126);
 
 }
 
@@ -45,17 +47,15 @@ header{
     display: flex;
     width: 100%;
     height: 600px;
-    background: url(Egyptian_Gods_by_ProcneA-3376144014);
+    background: url('images/Egyptian_Gods_by_ProcneA-3376144014');
     justify-content: center;
     align-items:center;
     flex-direction: column;
     background-size: cover;
-    position: absolute;
 }
 .banner p{
     color:white;
-    padding: 2em;
-    margin: 10px;
+    margin: 5px;
     font-size: 18px;
 }
 .banner a{
@@ -72,14 +72,31 @@ header{
     padding:20px 60px;
     color: white;
     font-size: 20px;
-     
+    scale:1.2;
 }
 
-/*intro section*/
-.intro{
-    display: flex;
-    width:100%;
-    flex-direction: row;
-    height: 600px;
-    position: absolute;
+/*about section*/
+.about{
+    margin: 5px 0px;
+    padding: 5px;
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+}
+.about .row{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.about .row .slide{
+    width: 30%;
+    height: 100%;
+    padding: 3px;
+    background-color: blue;
+}
+.about .row .slide img{
+    width: 100%;
+    height: 100%;
 }
